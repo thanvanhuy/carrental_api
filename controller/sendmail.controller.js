@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 const sendMail = (_req = request, _res = response) => {
   const mailOptions = {
     from: 'thanhoang810@gmail.com',
-    to: 'thanvhuy38@gmail.com',
+    to: 'tranvantumm1611@gmail.com',
     subject: 'Vui lòng kiểm tra, có khách hàng mới đặt xe',
     text: 'Kiểm tra lại nhé, lúa đang về!'
   };
